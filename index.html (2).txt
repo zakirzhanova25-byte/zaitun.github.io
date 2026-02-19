@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Бизнес Плюс</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+        header {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #162d6b;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .services {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1 1 250px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+        button {
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1d4ed8;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Бизнес Плюс</h1>
+    <p>Ваш надежный партнер в мире бизнеса</p>
+</header>
+
+<nav>
+    <a href="#about">О нас</a>
+    <a href="#services">Услуги</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+<section id="about">
+    <h2>О компании</h2>
+    <p>
+        Мы помогаем предпринимателям развивать свой бизнес, увеличивать прибыль 
+        и находить новые возможности для роста.
+    </p>
+    <button>Подробнее</button>
+</section>
+
+<section id="services">
+    <h2>Наши услуги</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Бизнес-консалтинг</h3>
+            <p>Анализ и оптимизация бизнес-процессов.</p>
+        </div>
+        <div class="card">
+            <h3>Маркетинг</h3>
+            <p>Продвижение бренда и увеличение продаж.</p>
+        </div>
+        <div class="card">
+            <h3>Финансовое планирование</h3>
+            <p>Стратегии управления финансами и инвестициями.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Контакты</h2>
+    <p>Email: info@businessplus.ru</p>
+    <p>Телефон: +7 (999) 123-45-67</p>
+</section>
+
+<footer>
+    <p>© 2026 Бизнес Плюс. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
